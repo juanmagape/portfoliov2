@@ -1,0 +1,41 @@
+* {
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAV BAR */
+
+nav {
+    margin-top: 20px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid white;
+    border-radius: 100px;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 20px 40px 20px 40px;
+    list-style: none;
+}
+
+/* MAIN CONTENT */
+
+#mainContent {
+    padding-top: 150px;
+
+}
