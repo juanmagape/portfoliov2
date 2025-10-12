@@ -41,23 +41,35 @@ nav ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
 
-#aboutme {
-    padding: 40px;
-}
-
-#aboutme h2 {
-    padding-bottom: 10px;
 }
 
 .tarjetas {
     display: flex;
     padding-top: 20px;
+    
 }
 
 .tipoTarjeta {
     border: 1px solid white;
     border-radius: 100px;
     padding: 10px 25px 10px 20px;
+}
+
+.work, .projects, #aboutme, footer {
+    padding: 40px;
+}
+
+.work h2, .projects h2, #aboutme h2, footer h2 {
+    padding-bottom: 20px;
+}
+
+.tarjTP {
+    width: 1000px;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.tarjTP:hover {
+    background-color: rgba(66, 66, 66, 0.438);
 }
