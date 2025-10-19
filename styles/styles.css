@@ -69,9 +69,36 @@ nav ul {
     width: 1000px;
     height: 200px;
     margin-bottom: 40px;
+    padding: 30px;
 }
 
 .tarjTP:hover {
     background-color: rgba(66, 66, 66, 0.438);
     border-radius: 20px;
+}
+
+
+.tarjTP h4,
+.tarjTP p {
+    background-color: transparent;
+
+}
+
+/* SKILLS */
+
+.skillsDiv {
+    width: 1000px;
+    height: 200px;
+    margin-bottom: 40px;
+    padding: 30px;
+
+}
+
+.skills {
+    width: 400px;
+    padding-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
 }
