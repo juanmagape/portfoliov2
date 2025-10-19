@@ -54,6 +54,7 @@ nav ul {
     border: 1px solid white;
     border-radius: 100px;
     padding: 10px 25px 10px 20px;
+    margin-right: 20px;
 }
 
 .work, .projects, #aboutme, footer {
@@ -72,4 +73,5 @@ nav ul {
 
 .tarjTP:hover {
     background-color: rgba(66, 66, 66, 0.438);
+    border-radius: 20px;
 }
