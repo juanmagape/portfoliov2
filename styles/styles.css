@@ -1,6 +1,5 @@
 * {
-    background-color: black;
-    color: white;
+    color: #2c3e50;
     margin: 0px;
     scroll-behavior: smooth;
 }
@@ -8,10 +7,15 @@
 body {
     margin: 0;
     padding: 0;
+    background: linear-gradient(135deg, #a8c0ff 0%, #d4d4d4 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
 }
 
 /* NAV BAR */
@@ -21,22 +25,35 @@ nav {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    border: 1px solid rgba(90, 90, 90, 0.616);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 100px;
     overflow: hidden;
     z-index: 1000;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
     display: flex;
     gap: 20px;
-    padding: 20px 40px 20px 40px;
+    padding: 15px 35px;
     list-style: none;
+    background: transparent;
+    align-items: center;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+i {
+    transition: all 0.3s ease;
 }
 
 i:hover {
-    color: rgba(255, 255, 255, 0.616);
-    transition: all 0.3s ease;
+    opacity: 0.7;
 }
 
 /* MAIN CONTENT */
@@ -47,72 +64,218 @@ i:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-
+    padding-bottom: 80px;
 }
 
+h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* ABOUT ME SECTION */
+
 .tarjetas {
-    display: flex;
+    display: inline-flex;
+    gap: 12px;
     padding-top: 20px;
-    
 }
 
 .tipoTarjeta {
-    border: 1px solid rgba(90, 90, 90, 0.616);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 100px;
-    padding: 10px 25px 10px 20px;
-    margin-right: 20px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
     transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    white-space: nowrap;
+    min-height: unset !important;
+    width: auto !important;
+    height: auto;
+    line-height: 1.2;
 }
 
 .tipoTarjeta:hover {
-    background-color: rgba(66, 66, 66, 0.438);
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
 }
+
+/* SECTIONS */
 
 .work, #projects, #aboutme, #myStack, footer {
     padding: 40px;
 }
 
-.work h2, #projects h2, #aboutme h2, #myStack h2 ,footer h2 {
-    padding-bottom: 20px;
+.work h2, #projects h2, #aboutme h2, #myStack h2, footer h2 {
+    padding-bottom: 30px;
 }
+
+/* WORK CARDS */
 
 .tarjTP {
-    width: 1000px;
-    height: 200px;
-    margin-bottom: 40px;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 200px;
+    margin-bottom: 30px;
     padding: 30px;
-}
-
-.tarjTP:hover {
-    background-color: rgba(66, 66, 66, 0.438);
     border-radius: 20px;
     transition: all 0.3s ease;
 }
 
+.tarjTP:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
 
-.tarjTP h4,
-.tarjTP ul,
-.tarjTP h5,
-.tarjTP li {
-    background-color: transparent;
+.tarjTP h4 {
+    margin-bottom: 8px;
+    font-weight: 600;
 }
 
 .tarjTP h5 {
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    color: #5a6c7d;
+    font-weight: 400;
+}
+
+.tarjTP ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.tarjTP li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.tarjTP a {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.tarjTP i {
+    color: #2c3e50;
 }
 
 /* SKILLS */
 
 .skillsDiv {
-    width: 1000px;
-    height: 200px;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 150px;
     margin-bottom: 40px;
-    padding: 30px;
+    padding: 40px 30px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .skills {
-    width: 850px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+}
+
+/* GLASSMORPHISM - WORK EXPERIENCE CARD */
+
+.glass-card {
+    width: 100%;
+    max-width: 1000px;
+    min-height: 300px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 0.2);
+}
+
+.glass-card h4,
+.glass-card ul,
+.glass-card h5,
+.glass-card li {
+    background-color: transparent;
+}
+
+.glass-card h4 {
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.glass-card h5 {
+    padding-bottom: 15px;
+    color: #5a6c7d;
+    font-weight: 400;
+}
+
+.glass-card ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.glass-card li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.glass-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(
+        90deg,
+        transparent,
+        rgba(255, 255, 255, 0.6),
+        transparent
+    );
+}
+
+.glass-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.6),
+        transparent,
+        rgba(255, 255, 255, 0.2)
+    );
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 60px 40px 40px;
 }
