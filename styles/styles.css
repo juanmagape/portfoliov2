@@ -36,8 +36,7 @@ nav ul {
 
 i:hover {
     color: rgba(255, 255, 255, 0.616);
-    transition: ease 0.2s;
-
+    transition: all 0.3s ease;
 }
 
 /* MAIN CONTENT */
@@ -62,7 +61,7 @@ i:hover {
     border-radius: 100px;
     padding: 10px 25px 10px 20px;
     margin-right: 20px;
-    transition: ease 0.2s;
+    transition: all 0.3s ease;
 }
 
 .tipoTarjeta:hover {
@@ -87,14 +86,14 @@ i:hover {
 .tarjTP:hover {
     background-color: rgba(66, 66, 66, 0.438);
     border-radius: 20px;
-    transition: ease-in-out 0.4s;
-
+    transition: all 0.3s ease;
 }
 
 
 .tarjTP h4,
-.tarjTP p,
-.tarjTP h5 {
+.tarjTP ul,
+.tarjTP h5,
+.tarjTP li {
     background-color: transparent;
 }
 
