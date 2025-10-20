@@ -2,6 +2,7 @@
     background-color: black;
     color: white;
     margin: 0px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -20,7 +21,7 @@ nav {
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    border: 1px solid white;
+    border: 1px solid rgba(90, 90, 90, 0.616);
     border-radius: 100px;
     overflow: hidden;
     z-index: 1000;
@@ -31,6 +32,12 @@ nav ul {
     gap: 20px;
     padding: 20px 40px 20px 40px;
     list-style: none;
+}
+
+i:hover {
+    color: rgba(255, 255, 255, 0.616);
+    transition: ease 0.2s;
+
 }
 
 /* MAIN CONTENT */
@@ -51,17 +58,22 @@ nav ul {
 }
 
 .tipoTarjeta {
-    border: 1px solid white;
+    border: 1px solid rgba(90, 90, 90, 0.616);
     border-radius: 100px;
     padding: 10px 25px 10px 20px;
     margin-right: 20px;
+    transition: ease 0.2s;
 }
 
-.work, .projects, #aboutme, footer {
+.tipoTarjeta:hover {
+    background-color: rgba(66, 66, 66, 0.438);
+}
+
+.work, #projects, #aboutme, #myStack, footer {
     padding: 40px;
 }
 
-.work h2, .projects h2, #aboutme h2, footer h2 {
+.work h2, #projects h2, #aboutme h2, #myStack h2 ,footer h2 {
     padding-bottom: 20px;
 }
 
@@ -75,13 +87,19 @@ nav ul {
 .tarjTP:hover {
     background-color: rgba(66, 66, 66, 0.438);
     border-radius: 20px;
+    transition: ease-in-out 0.4s;
+
 }
 
 
 .tarjTP h4,
-.tarjTP p {
+.tarjTP p,
+.tarjTP h5 {
     background-color: transparent;
+}
 
+.tarjTP h5 {
+    padding-bottom: 20px;
 }
 
 /* SKILLS */
@@ -91,14 +109,11 @@ nav ul {
     height: 200px;
     margin-bottom: 40px;
     padding: 30px;
-
 }
 
 .skills {
-    width: 400px;
-    padding-left: 100px;
+    width: 850px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-
 }
