@@ -388,8 +388,8 @@ p {
 /* SKILLS */
 
 .skillsDiv {
-    width: 100%;
-    max-width: 1000px;
+    width: 940px;
+    max-width: 1200px;
     min-height: 150px;
     margin-bottom: 40px;
     padding: 40px 30px;
@@ -406,7 +406,7 @@ p {
 
 .skills {
     width: 100%;
-    max-width: 850px;
+    max-width: 1200px;
     height: auto;
 }
 
@@ -417,31 +417,6 @@ footer {
     padding: 60px 40px 40px;
 }
 
-@media (max-width: 768px) {
-    .timeline {
-        padding-left: 30px;
-    }
-
-    .timeline::before {
-        left: 5px;
-    }
-
-    .work-card::before {
-        left: -36px;
-        width: 12px;
-        height: 12px;
-    }
-
-    .work-card {
-        padding: 25px;
-    }
-
-    .job-title {
-        font-size: 1.3rem;
-    }
-
-    .company-info {
-        flex-direction: column;
-        gap: 8px;
-    }
+.contact {
+    text-decoration: underline;
 }

@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Juan Manuel Galán | Portfolio</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://juanmagape.vercel.app/">
+    <meta property="og:title" content="Juan Manuel Gape - IT Support Technician">
+    <meta property="og:description" content="Portfolio of Juan Manuel Galán. IT Support Technician specializing in technical support and web development.">
+    <meta property="og:image" content="https://juanmagape.vercel.app/photos/pagephoto.png">
+
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/juw6tlr.css">
 </head>
@@ -23,16 +30,19 @@
     <main id="mainContent">
 
         <section id="aboutme">
-            <h2>about me</h2>
+                <h2>Juan Manuel Galán</h2>
+            <h2>About me</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, nostrum veritatis quam sunt aliquam tempora, molestiae enim voluptatum pariatur fuga blanditiis corrupti dolorem nam consequatur unde, eos explicabo esse veniam.</p>
             <div class="tarjetas">
-                <p class="tipoTarjeta">📍Spain</p>
-                <p class="tipoTarjeta">Open to work</p>
+                <p class="tipoTarjeta">
+                    <i class="fas fa-map-marker-alt">
+                    </i> Barcelona, Spain</p>
+                <p class="tipoTarjeta"><i class="fa-solid fa-briefcase"></i> Open to work</p>
             </div>
         </section>
 
         <section class="work">
-            <h2>work experience</h2>
+            <h2>Work experience</h2>
 
             <div class="timeline">
                 <div class="work-card">
@@ -116,35 +126,33 @@
         </section>
 
         <section id="projects">
-            <h2>recent projects</h2>
+            <h2>Recent projects</h2>
 
             <div class="bento-grid">
                 <div class="bento-item featured">
-                    <div class="project-content">
-                        <h3 class="project-title">Digitech Programming</h3>
-                        <p class="project-description">Complete programming course with interactive exercises and real-world examples. Built with modern web technologies.</p>
-                        <div class="project-tags">
-                            <span class="tag">JavaScript</span>
-                            <span class="tag">HTML/CSS</span>
-                            <span class="tag">Education</span>
-                        </div>
-                    </div>
-                    <a href="https://github.com/juanmagape/digitech-programacion" target="_blank" class="project-link">
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    </a>
-                </div>
-
-                <div class="bento-item medium">
                     <div class="project-content">
                         <h3 class="project-title">Pokapi</h3>
                         <p class="project-description">Interactive Pokémon database using the PokéAPI. Search, filter, and explore.</p>
                         <div class="project-tags">
                             <span class="tag">JS Vanilla</span>
                             <span class="tag">API</span>
-                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">HTML/CSS</span>                        
                         </div>
                     </div>
                     <a href="https://poke-api-juanmagape.vercel.app/" target="_blank" class="project-link">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                </div>
+
+                <div class="bento-item medium">
+                    <div class="project-content">
+                        <h3 class="project-title">Tamagotchi</h3>
+                        <p class="project-description">Interactive tamagotchi via terminal, you can play, sleep, and give them food, if tamagotchi dies, you lose</p>
+                        <div class="project-tags">
+                            <span class="tag">Java</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/juanmagape/tamagotchi" target="_blank" class="project-link">
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                 </div>
@@ -165,13 +173,14 @@
 
                 <div class="bento-item small">
                     <div class="project-content">
-                        <h3 class="project-title">Weather App</h3>
-                        <p class="project-description">Real-time weather forecast application.</p>
+                        <h3 class="project-title">Basic Calculator App</h3>
+                        <p class="project-description">Basic calculator with JS Vanilla and HTML/CSS</p>
                         <div class="project-tags">
-                            <span class="tag">API</span>
+                            <span class="tag">Vanilla JS</span>
+                            <span class="tag">HTML/CSS</span>                          
                         </div>
                     </div>
-                    <a href="#" target="_blank" class="project-link">
+                    <a href="https://calculadora-basica-js-one.vercel.app" target="_blank" class="project-link">
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                 </div>
@@ -182,9 +191,11 @@
                         <p class="project-description">To-do list with local storage.</p>
                         <div class="project-tags">
                             <span class="tag">Vanilla JS</span>
+                            <span class="tag">HTML/CSS</span>                        
+
                         </div>
                     </div>
-                    <a href="#" target="_blank" class="project-link">
+                    <a href="https://todo-list-basico-js.vercel.app" target="_blank" class="project-link">
                         <i class="fa-solid fa-arrow-up-right-from-square"></i>
                     </a>
                 </div>
@@ -193,7 +204,7 @@
         </section>
 
         <section id="myStack">
-            <h2>i work with</h2>
+            <h2>I work with</h2>
 
             <div class="skillsDiv">
                     <img class="skills" src="https://skillicons.dev/icons?i=git,java,html,css,tailwind,mysql,astro,linux,ubuntu,windows,figma,wordpress,github,aws" />
@@ -202,7 +213,7 @@
 
 
     <footer>
-        <h2>footer</h2>
+        <p><a href="https://www.linkedin.com/in/juanma-gape/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"> </i></a> or you can contact me via mail <a href="mailto:juanmagape.trb@gmail.com" class="contact">juanmagape.trb@gmail.com</a></p>
     </footer>
     </main>
 
