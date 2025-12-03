@@ -67,6 +67,10 @@ i:hover {
     padding-bottom: 80px;
 }
 
+h1 {
+    margin-bottom: 30px;
+}
+
 h2 {
     font-size: 1.8rem;
     font-weight: 600;
@@ -315,6 +319,12 @@ p {
 
 .bento-item.small .project-description {
     font-size: 0.85rem;
+}
+
+img {
+    border-radius: 20px;
+    width: 450px;
+    margin-top: 20px;
 }
 
 /* Project tags */
