@@ -1,0 +1,20 @@
+.nav-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-right: auto;
+}
+
+.nav-title:hover {
+  color: var(--heading-color);
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+
+}
+
+.nav-item.activo {
+  text-decoration: underline;
+}
+
