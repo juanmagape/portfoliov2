@@ -6,7 +6,7 @@ function Projects() {
             <div className="project-list">
                 <article>
                     <a href="https://github.com/juanmagape/portal-del-empleado">
-                        <h2>Portal del empleado</h2>
+                        <h2>Portal del empleado (Work in progress)</h2>
                     </a>
                     <h4>React · CSS · Api</h4>
                     <p>RRHA central hub for employees to handle HR docs and requests</p>
