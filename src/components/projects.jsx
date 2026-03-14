@@ -5,7 +5,7 @@ function Projects() {
 
             <div className="project-list">
                 <article>
-                    <a href="https://github.com/juanmagape/portal-del-empleado">
+                    <a href="https://github.com/juanmagape/portal-del-empleado" target='_blank'>
                         <h2>Portal del empleado (Work in progress)</h2>
                     </a>
                     <h4>React · CSS · Api</h4>
@@ -13,7 +13,7 @@ function Projects() {
                 </article>
 
                 <article>
-                    <a href="https://github.com/juanmagape/umamusume">
+                    <a href="https://github.com/juanmagape/umamusume" target='_blank'>
                         <h2>Umamusume</h2>
                     </a>
                     <h4>Java</h4>
@@ -21,7 +21,7 @@ function Projects() {
                 </article>
 
                 <article>
-                    <a href="https://github.com/juanmagape/rpg_game">
+                    <a href="https://github.com/juanmagape/rpg_game" target='_blank'>
                         <h2>RPG Game</h2>
                     </a>
                     <h4>Java</h4>
@@ -29,7 +29,7 @@ function Projects() {
                 </article>
 
                 <article>
-                    <a href="https://github.com/juanmagape/crud-java">
+                    <a href="https://github.com/juanmagape/crud-java" target='_blank'>
                         <h2>Todo List</h2>
                     </a>
                     <h4>Java · CSV</h4>
@@ -37,7 +37,7 @@ function Projects() {
                 </article>
 
                 <article>
-                    <a href="https://github.com/juanmagape/tamagotchi">
+                    <a href="https://github.com/juanmagape/tamagotchi" target='_blank'>
                         <h2>Tamagotchi</h2>
                     </a>
                     <h4>Java</h4>
@@ -45,7 +45,7 @@ function Projects() {
                 </article>
 
                 <article>
-                    <a href="https://github.com/juanmagape/calculadorabasicajs">
+                    <a href="https://github.com/juanmagape/calculadorabasicajs" target='_blank'>
                         <h2>Basic Calculator</h2>
                     </a>
                     <h4>JS · HTML · CSS</h4>
@@ -53,7 +53,7 @@ function Projects() {
                 </article>
 
                 <article>
-                    <a href="https://github.com/juanmagape/todolistbasicojs">
+                    <a href="https://github.com/juanmagape/todolistbasicojs" target='_blank'>
                         <h2>Basic Todo List</h2>
                     </a>
                     <h4>JS · HTML · CSS</h4>
@@ -61,7 +61,7 @@ function Projects() {
                 </article>
 
                 <article>
-                    <a href="https://github.com/juanmagape/scriptsconfig">
+                    <a href="https://github.com/juanmagape/scriptsconfig" target='_blank'>
                         <h2>PC Setup Scripts</h2>
                     </a>
                     <h4>PowerShell · Batch</h4>

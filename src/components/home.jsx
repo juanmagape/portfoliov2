@@ -24,28 +24,28 @@ function Home() {
 
             <section className="project-list">
                 <article>
-                    <Link to="https://valo-esports.vercel.app">
+                    <Link to="https://valo-esports.vercel.app" target='_blank'>
                         <h2>Valorant Esports</h2>
                     </Link>
                     <h4>React · CSS · Api</h4>
                     <p>A web application to track competitive Valorant teams, rosters, recent results, and upcoming matches using real-time data</p>
                 </article>
                 <article>
-                    <Link to="https://poke-api-juanmagape.vercel.app">
+                    <Link to="https://poke-api-juanmagape.vercel.app" target='_blank'>
                         <h2>PokeApi</h2>
                     </Link>
                     <h4>JS · HTML · CSS · Api</h4>
                     <p>App to browse Pokémon stats and abilities using the PokéAPI</p>
                 </article>
                 <article>
-                    <Link to="https://techsolve.vercel.app/">
+                    <Link to="https://techsolve.vercel.app/" target='_blank'>
                         <h2>TechSolve</h2>
                     </Link>
                     <h4>HTML · CSS · JS · PHP</h4>
                     <p>A mock PC repair shop website. Browse components, peripherals, and check the troubleshooting guide for common tech headaches</p>
                 </article>
                 <article>
-                    <Link to="https://ticket-system-juanmagape.vercel.app/">
+                    <Link to="https://ticket-system-juanmagape.vercel.app/" target='_blank'>
                         <h2>TicketFlow</h2>
                     </Link>
                     <h4>JS · CSS · HTML</h4>
