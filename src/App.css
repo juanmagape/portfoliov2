@@ -240,3 +240,126 @@ a:hover {
   padding-top: 2rem;
   border-top: 1px solid var(--border-color);
 }
+
+/* Experience Section */
+.experience-section {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.experience-section h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--heading-color);
+    margin: 0 0 1.75rem 0;
+}
+
+.experience-timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-item {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.experience-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    padding-top: 5px;
+}
+
+.experience-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--light-gray);
+    flex-shrink: 0;
+}
+
+.experience-dot.dot-current {
+    background-color: var(--link-color);
+    box-shadow: 0 0 0 3px rgba(224, 79, 79, 0.15);
+}
+
+.experience-connector {
+    width: 1px;
+    flex: 1;
+    min-height: 20px;
+    background-color: var(--border-color);
+    margin: 5px 0;
+}
+
+.experience-card {
+    flex: 1;
+    padding-bottom: 1.75rem;
+}
+
+.experience-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.experience-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--heading-color);
+    margin: 0 0 0.1rem;
+}
+
+.experience-company {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+.experience-type {
+    font-size: 0.875rem;
+    color: var(--light-gray);
+}
+
+.experience-badge {
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--link-color);
+    background: rgba(224, 79, 79, 0.08);
+    border: 1px solid rgba(224, 79, 79, 0.2);
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.experience-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.8rem;
+    color: var(--light-gray);
+    margin-bottom: 0.6rem;
+}
+
+.experience-separator {
+    opacity: 0.4;
+}
+
+.experience-period {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.experience-description {
+    font-size: 0.9rem;
+    color: var(--text-color);
+    margin: 0;
+    line-height: 1.6;
+}
