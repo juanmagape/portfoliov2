@@ -24,6 +24,13 @@ function Home() {
 
             <section className="project-list">
                 <article>
+                    <Link to="https://github.com/juanmagape/expenses-control-app.git" target='_blank'>
+                        <h2>Expenses control app</h2>
+                    </Link>
+                    <h4>React · CSS · Tailwind</h4>
+                    <p>A web app to easily track your daily expenses, monitor your incomes, and analyze your financial habits locally</p>
+                </article>
+                <article>
                     <Link to="https://valo-esports.vercel.app" target='_blank'>
                         <h2>Valorant Esports</h2>
                     </Link>
