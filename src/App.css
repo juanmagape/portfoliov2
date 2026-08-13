@@ -363,3 +363,93 @@ a:hover {
     margin: 0;
     line-height: 1.6;
 }
+
+/* =========================================
+   10. DOCUMENTATION & IMAGES (.documentation-container)
+   ========================================= */
+.documentation-container h1 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--heading-color);
+  margin: 0 0 1rem 0;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin-bottom: 2rem;
+}
+
+.table-of-contents {
+  background-color: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.table-of-contents h2 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.1rem;
+  color: var(--heading-color);
+  margin: 0 0 0.75rem 0;
+}
+
+.table-of-contents ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.table-of-contents li {
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+}
+
+.table-of-contents a {
+  color: var(--link-color);
+}
+
+.table-of-contents a:hover {
+  color: var(--hover-color);
+  text-decoration: underline;
+}
+
+.doc-section {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.doc-section h2 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--heading-color);
+  margin: 0 0 0.75rem 0;
+}
+
+.doc-section p, .doc-section li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.doc-section ul {
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Estilo ajustado para las imágenes de la documentación */
+.doc-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
