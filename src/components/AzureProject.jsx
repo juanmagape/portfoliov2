@@ -63,7 +63,7 @@ function AzureProject() {
                     <li>Once the script is executed, the system generates a log file (<code>user-creation-log.txt</code>) confirming the successful creation of each account.</li>
                     <li>If we return to our Active Directory and enter specific OUs, such as <code>dep-desarrollo</code>, we can verify that all users have been correctly imported with their respective profiles.</li>
                 </ul>
-                <img src="/azure-project/Screenshot 2026-08-12 232351.jpg" alt="User creation log" className="doc-image" />
+                <img src="/azure-project/Screenshot 2026-08-12 232351.png" alt="User creation log" className="doc-image" />
                 <img src="/azure-project/Screenshot 2026-08-12 232512.png" alt="Users created in Active Directory" className="doc-image" />
             </section>
 
@@ -116,7 +116,7 @@ function AzureProject() {
                 <ul>
                     <li>Upon clicking connect, Bastion opens a full terminal session directly in a web browser tab. All traffic is encrypted via HTTPS (port 443), achieving a completely secure and shielded remote administration.</li>
                 </ul>
-                <img src="/azure-project/Screenshot 2026-08-13 035403.jpg" alt="Secure SSH terminal in browser" className="doc-image" />
+                <img src="/azure-project/Screenshot 2026-08-13 035403.png" alt="Secure SSH terminal in browser" className="doc-image" />
             </section>
         </div>
     );
