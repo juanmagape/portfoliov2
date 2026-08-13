@@ -63,7 +63,7 @@ function AzureProject() {
                     <li>Once the script is executed, the system generates a log file (<code>user-creation-log.txt</code>) confirming the successful creation of each account.</li>
                     <li>If we return to our Active Directory and enter specific OUs, such as <code>dep-desarrollo</code>, we can verify that all users have been correctly imported with their respective profiles.</li>
                 </ul>
-                <img src="/azure-project/Screenshot 2026-08-12 232351.png" alt="User creation log" className="doc-image" />
+                <img src="/azure-project/Screenshot 2026-08-12 232351.jpg" alt="User creation log" className="doc-image" />
                 <img src="/azure-project/Screenshot 2026-08-12 232512.png" alt="Users created in Active Directory" className="doc-image" />
             </section>
 
@@ -74,23 +74,25 @@ function AzureProject() {
                     <li>The first thing we had to do on the local server was to go to "Active Directory Domains and Trusts" to add the alternative UPN suffix of our cloud tenant. This ensures that usernames match exactly between the local environment and Azure.</li>
                 </ul>
                 <img src="/azure-project/pendblur-sufijo.png" alt="Alternative UPN suffix configuration" className="doc-image" />
-                <ul>
-                    <li>Finally, I downloaded and installed the provisioning agent (<code>Microsoft Entra Provisioning Agent</code>).</li>
-                    <li>During the configuration wizard, I validated the cloud global administrator credentials to establish a secure bridge between our Windows Server 2025 and Microsoft Entra ID.</li>
-                </ul>
-                <img src="/azure-project/Screenshot 2026-08-12 233706.png" alt="Provisioning Agent Installation" className="doc-image" />
-                <img src="/azure-project/Screenshot 2026-08-12 233814.png" alt="Connection to Microsoft Entra ID" className="doc-image" />
             </section>
 
             <section id="synchronization" className="doc-section">
                 <h2>6. Entra Cloud Sync Finalization and Identity Synchronization</h2>
-                <p>For the bridge between our local server and the cloud to work, we need to configure the provisioning agent that will connect both worlds.</p>
+                <p>For the bridge between our local server and the cloud to work, we need to download and configure the provisioning agent that will connect both worlds.</p>
                 <ul>
                     <li>First, we head to the Microsoft Azure portal, to the <strong>Cloud sync</strong> section, and download the local agent installer.</li>
                 </ul>
                 <img src="/azure-project/Screenshot 2026-08-12 233903.png" alt="Azure Portal to download agent" className="doc-image" />
                 <ul>
-                    <li>During the installation on our Windows Server, the wizard will ask us to connect our directory. Here we input our local domain administrator credentials so the agent has read permissions over the users we previously created with PowerShell.</li>
+                    <li>Next, I ran the downloaded installer package on our Windows Server to install the provisioning agent.</li>
+                </ul>
+                <img src="/azure-project/Screenshot 2026-08-12 233706.png" alt="Provisioning Agent Installation" className="doc-image" />
+                <ul>
+                    <li>During the configuration wizard, I validated the cloud global administrator credentials to establish a secure bridge between our Windows Server 2025 and Microsoft Entra ID.</li>
+                </ul>
+                <img src="/azure-project/Screenshot 2026-08-12 233814.png" alt="Connection to Microsoft Entra ID" className="doc-image" />
+                <ul>
+                    <li>Afterwards, the wizard asks us to connect our local directory. Here we input our local domain administrator credentials so the agent has read permissions over the users we previously created with PowerShell.</li>
                 </ul>
                 <img src="/azure-project/Screenshot 2026-08-12 235722.png" alt="Agent connection to local Active Directory" className="doc-image" />
                 <ul>
@@ -114,7 +116,7 @@ function AzureProject() {
                 <ul>
                     <li>Upon clicking connect, Bastion opens a full terminal session directly in a web browser tab. All traffic is encrypted via HTTPS (port 443), achieving a completely secure and shielded remote administration.</li>
                 </ul>
-                <img src="/azure-project/Screenshot 2026-08-13 035403.png" alt="Secure SSH terminal in browser" className="doc-image" />
+                <img src="/azure-project/Screenshot 2026-08-13 035403.jpg" alt="Secure SSH terminal in browser" className="doc-image" />
             </section>
         </div>
     );
