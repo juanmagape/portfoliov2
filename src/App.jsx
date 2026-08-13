@@ -13,7 +13,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />
-        <Route path='/azure' element={<AzureProject />} />
+        <Route path='/docs/azure' element={<AzureProject />} />
         <Route path='/docs' element={<Docs />} />
       </Routes>
     </main>

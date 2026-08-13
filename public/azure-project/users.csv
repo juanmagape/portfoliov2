@@ -1,0 +1,31 @@
+Nombre,Apellido,NombreUsuario,Departamento,Puesto,OU,Password
+Juan,Perez,jperez,IT,Tecnico,"OU=dep-it,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd001!
+Maria,Lopez,mlopez,RRHH,Tecnico de RRHH,"OU=dep-rrhh,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd002!
+Carlos,Garcia,cgarcia,IT,Administrador de Sistemas,"OU=dep-it,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd003!
+Ana,Martinez,amartinez,RRHH,Tecnico de RRHH,"OU=dep-rrhh,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd004!
+Luis,Sanchez,lsanchez,Desarrollo,Desarrollador Backend,"OU=dep-desarrollo,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd005!
+Laura,Rodriguez,lrodriguez,Desarrollo,Desarrolladora Frontend,"OU=dep-desarrollo,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd006!
+Miguel,Fernandez,mfernandez,IT,Soporte Tecnico,"OU=dep-it,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd007!
+Elena,Gomez,egomez,RRHH,Especialista en Seleccion,"OU=dep-rrhh,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd008!
+Pablo,Diaz,pdiaz,Desarrollo,Desarrollador Backend,"OU=dep-desarrollo,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd009!
+Sara,Alvarez,salvarez,RRHH,Responsable de RRHH,"OU=dep-rrhh,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd010!
+David,Moreno,dmoreno,IT,Administrador de Redes,"OU=dep-it,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd011!
+Cristina,Munoz,cmunoz,Desarrollo,QA Tester,"OU=dep-desarrollo,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd012!
+Javier,Romero,jromero,IT,Tecnico,"OU=dep-it,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd013!
+Isabel,Alonso,ialonso,RRHH,Tecnico de RRHH,"OU=dep-rrhh,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd014!
+Francisco,Gutierrez,fgutierrez,IT,Tecnico,"OU=dep-it,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd015!
+Marta,Navarro,mnavarro,Desarrollo,Desarrolladora Frontend,"OU=dep-desarrollo,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd016!
+Alberto,Torres,atorres,IT,Administrador de Sistemas,"OU=dep-it,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd017!
+Patricia,Dominguez,pdominguez,RRHH,Especialista en Seleccion,"OU=dep-rrhh,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd018!
+Raul,Vazquez,rvazquez,Desarrollo,Desarrollador Backend,"OU=dep-desarrollo,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd019!
+Nuria,Ramos,nramos,RRHH,Tecnico de RRHH,"OU=dep-rrhh,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd020!
+Sergio,Gil,sgil,IT,Soporte Tecnico,"OU=dep-it,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd021!
+Beatriz,Serrano,bserrano,Desarrollo,QA Tester,"OU=dep-desarrollo,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd022!
+Roberto,Blanco,rblanco,IT,Tecnico,"OU=dep-it,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd023!
+Silvia,Suarez,ssuarez,RRHH,Responsable de RRHH,"OU=dep-rrhh,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd024!
+Diego,Molina,dmolina,Desarrollo,Desarrollador Frontend,"OU=dep-desarrollo,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd025!
+Lucia,Ortiz,lortiz,IT,Administrador de Redes,"OU=dep-it,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd026!
+Alvaro,Delgado,adelgado,RRHH,Tecnico de RRHH,"OU=dep-rrhh,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd027!
+Rosa,Castro,rcastro,Desarrollo,QA Tester,"OU=dep-desarrollo,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd028!
+Ignacio,Ortega,iortega,IT,Tecnico,"OU=dep-it,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd029!
+Teresa,Rubio,trubio,RRHH,Especialista en Seleccion,"OU=dep-rrhh,OU=departamentos,OU=Suppora_Corp,DC=ad,DC=suppora,DC=com",P@ssw0rd030!
