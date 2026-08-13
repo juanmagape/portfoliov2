@@ -63,8 +63,8 @@ function AzureProject() {
                 <h2>4. User Deployment Automation with PowerShell</h2>
                 <p>In a real corporate environment, creating users manually is not efficient. To demonstrate advanced administration capabilities, I created an automation script.</p>
                 <ul>
-                    <li>First, I prepared a <a href='' target='_blank'>users.csv</a> file with all the staff data (First Name, Last Name, Department, Job Title, and destination OU).</li>
-                    <li>Subsequently, I developed the <a href='' target='_blank'>script_users.ps1</a> script, which reads this CSV, generates the login name (sAMAccountName), converts the password to a secure format, and uses the <code>New-ADUser</code> command to create accounts in bulk, automatically skipping those that already exist.</li>
+                    <li>First, I prepared a <a href='https://github.com/juanmagape/portfoliov2/blob/main/public/azure-project/users.csv' target='_blank'>users.csv</a> file with all the staff data (First Name, Last Name, Department, Job Title, and destination OU).</li>
+                    <li>Subsequently, I developed the <a href='https://github.com/juanmagape/portfoliov2/blob/main/public/azure-project/script_users.ps1' target='_blank'>script_users.ps1</a> script, which reads this CSV, generates the login name (sAMAccountName), converts the password to a secure format, and uses the <code>New-ADUser</code> command to create accounts in bulk, automatically skipping those that already exist.</li>
                 </ul>
                 <Zoom>
                     <img src="/azure-project/Screenshot 2026-08-12 232425.png" alt="CSV file with user data" className="doc-image" />
