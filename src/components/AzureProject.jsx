@@ -21,7 +21,7 @@ function AzureProject() {
             </nav>
 
             <section id="setup" className="doc-section">
-                <h2>1. Virtualization Environment Setup 🡪</h2>
+                <h2>1. Virtualization Environment Setup</h2>
                 <p>To build our base infrastructure, instead of using traditional desktop solutions, I opted for Microsoft's native hypervisor. The first thing we need to do is open our Hyper-V Manager.</p>
                 <ul>
                     <li>Once inside, we create a new Virtual Machine, assigning the necessary resources (RAM, vCPU, and a dynamically expanding virtual hard disk) to support the server operating system.</li>
@@ -31,7 +31,7 @@ function AzureProject() {
             </section>
 
             <section id="configuration" className="doc-section">
-                <h2>2. Initial Configuration and Server Roles 🡪</h2>
+                <h2>2. Initial Configuration and Server Roles</h2>
                 <p>Once the Windows Server 2025 installation is complete and a static IP is configured (an essential requirement for a domain controller), we head to the Server Manager.</p>
                 <ul>
                     <li>The next thing we will do is go to the "Add roles and features" option.</li>
@@ -41,7 +41,7 @@ function AzureProject() {
             </section>
 
             <section id="structure" className="doc-section">
-                <h2>3. Active Directory Structure Design 🡪</h2>
+                <h2>3. Active Directory Structure Design</h2>
                 <p>With the domain created, the next step is not to create users randomly, but to establish a logical hierarchy. To do this, we open the "Active Directory Users and Computers" tool.</p>
                 <ul>
                     <li>At the root of the domain, I created a main Organizational Unit (OU) named <code>Suppora_Corp</code>.</li>
@@ -51,7 +51,7 @@ function AzureProject() {
             </section>
 
             <section id="automation" className="doc-section">
-                <h2>4. User Deployment Automation with PowerShell 🡪</h2>
+                <h2>4. User Deployment Automation with PowerShell</h2>
                 <p>In a real corporate environment, creating users manually is not efficient. To demonstrate advanced administration capabilities, I created an automation script.</p>
                 <ul>
                     <li>First, I prepared a <code>usuarios.csv</code> file with all the staff data (First Name, Last Name, Department, Job Title, and destination OU).</li>
@@ -68,7 +68,7 @@ function AzureProject() {
             </section>
 
             <section id="hybrid-environment" className="doc-section">
-                <h2>5. Hybrid Environment Preparation (Azure / Entra ID) 🡪</h2>
+                <h2>5. Hybrid Environment Preparation (Azure / Entra ID)</h2>
                 <p>To modernize the infrastructure and allow users to use the same local credentials in the Microsoft 365 cloud, I configured identity synchronization.</p>
                 <ul>
                     <li>The first thing we had to do on the local server was to go to "Active Directory Domains and Trusts" to add the alternative UPN suffix of our cloud tenant. This ensures that usernames match exactly between the local environment and Azure.</li>
@@ -83,7 +83,7 @@ function AzureProject() {
             </section>
 
             <section id="synchronization" className="doc-section">
-                <h2>6. Entra Cloud Sync Finalization and Identity Synchronization 🡪</h2>
+                <h2>6. Entra Cloud Sync Finalization and Identity Synchronization</h2>
                 <p>For the bridge between our local server and the cloud to work, we need to configure the provisioning agent that will connect both worlds.</p>
                 <ul>
                     <li>First, we head to the Microsoft Azure portal, to the <strong>Cloud sync</strong> section, and download the local agent installer.</li>
@@ -104,7 +104,7 @@ function AzureProject() {
             </section>
 
             <section id="iaas-bastion" className="doc-section">
-                <h2>7. Azure IaaS Deployment and Secure Access (Zero Trust) with Bastion 🡪</h2>
+                <h2>7. Azure IaaS Deployment and Secure Access (Zero Trust) with Bastion</h2>
                 <p>To wrap up the project, I wanted to demonstrate how to manage pure cloud infrastructure (IaaS) applying strict security policies, avoiding the exposure of public ports.</p>
                 <ul>
                     <li>I deployed a Virtual Machine with the <strong>Ubuntu Linux</strong> operating system (<code>v-laboratorio</code>) inside a Virtual Network (VNet) in Azure. I configured it <strong>without a public IP address</strong>, making it invisible to the internet and protecting it from brute force attacks on port 22 (SSH).</li>
