@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 import Home from './components/home'
 import Projects from './components/projects'
 import About from './components/about'
+import AzureProject from './components/AzureProject'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />
+        <Route path='/azure' element={<AzureProject />} />
       </Routes>
     </main>
   )

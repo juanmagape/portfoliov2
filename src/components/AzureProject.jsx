@@ -1,4 +1,4 @@
-function HybridInfrastructureDoc() {
+function AzureProject() {
     return (
         <div className="documentation-container">
             <h1>Hybrid Infrastructure Deployment: Windows Server 2025 and Microsoft Entra ID</h1>
@@ -120,4 +120,4 @@ function HybridInfrastructureDoc() {
     );
 }
 
-export default HybridInfrastructureDoc;
+export default AzureProject;
