@@ -10,10 +10,14 @@ function Navbar() {
             <NavLink to="/projects" className={({ isActive }) => isActive ? 'nav-item activo' : 'nav-item'}>
                 Projects
             </NavLink>
+            <NavLink to="/docs" className={({ isActive }) => isActive ? 'nav-item activo' : 'nav-item'}>
+                Docs
+            </NavLink>
             <NavLink to="/about" className={({ isActive }) => isActive ? 'nav-item activo' : 'nav-item'}>
                 About
             </NavLink>
         </nav>
     )
 }
+
 export default Navbar

@@ -4,6 +4,7 @@ import Home from './components/home'
 import Projects from './components/projects'
 import About from './components/about'
 import AzureProject from './components/AzureProject'
+import Docs from './components/Docs'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/azure' element={<AzureProject />} />
+        <Route path='/docs' element={<Docs />} />
       </Routes>
     </main>
   )
